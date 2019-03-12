@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ArduinoLibraries" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ArduinoLibraries" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="libraries/Buzzer/" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ArduinoLibraries" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="libraries/Buzzer/" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Button/Button.cpp" />
+		<Unit filename="Button/button.h" />
+		<Unit filename="Buzzer/Buzzer.cpp" />
+		<Unit filename="Buzzer/Buzzer.h" />
+		<Unit filename="Diode/diode.cpp" />
+		<Unit filename="Diode/diode.h" />
+		<Unit filename="Microphone/microphone.cpp" />
+		<Unit filename="Microphone/microphone.h" />
+		<Unit filename="Potentiometer/potentiometer.cpp" />
+		<Unit filename="Potentiometer/potentiometer.h" />
+		<Unit filename="Speaker/speaker.cpp" />
+		<Unit filename="Speaker/speaker.h" />
+		<Unit filename="alarmSensor/alarmSensor.cpp" />
+		<Unit filename="alarmSensor/alarmSensor.h" />
+		<Unit filename="analogInput/analogInput.cpp" />
+		<Unit filename="analogInput/analogInput.h" />
+		<Unit filename="digitalInput/digitalInput.cpp" />
+		<Unit filename="digitalInput/digitalInput.h" />
+		<Unit filename="digitalOutputGroup/digitalOutputGroup.cpp" />
+		<Unit filename="digitalOutputGroup/digitalOutputGroup.h" />
+		<Unit filename="digitalOutput/digitalOutput.cpp" />
+		<Unit filename="digitalOutput/digitalOutput.h" />
+		<Unit filename="generalDevice/devices.h" />
+		<Unit filename="pwmDeviceGroup/pwmDeviceGroup.cpp" />
+		<Unit filename="pwmDeviceGroup/pwmDeviceGroup.h" />
+		<Unit filename="pwmDevice/pwmDevice.cpp" />
+		<Unit filename="pwmDevice/pwmDevice.h" />
+		<Unit filename="rgbDisplay/rgbdisplay.cpp" />
+		<Unit filename="rgbDisplay/rgbdisplay.h" />
+		<Unit filename="rgbLED/rgbLED.cpp" />
+		<Unit filename="rgbLED/rgbLED.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

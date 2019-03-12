@@ -1,0 +1,18 @@
+#######################################
+# Syntax Coloring Map For Buttons
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Button	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+debounce	KEYWORD2
+wasPressed	KEYWORD2
+stateHasChanged	KEYWORD2
+
